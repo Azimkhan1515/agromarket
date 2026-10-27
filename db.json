@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Томаты на ветке",
+      "price": 890,
+      "oldPrice": 1100,
+      "unit": "1 кг",
+      "category": "Овощи",
+      "farm": "Теплицы «Жасыл», Алматы",
+      "badge": "Хит сезона",
+      "image": "https://images.unsplash.com/photo-1546470427-e5b89e6d0d37?w=900&q=85"
+    },
+    {
+      "id": "2",
+      "name": "Яблоки «Алматинский апорт»",
+      "price": 650,
+      "unit": "1 кг",
+      "category": "Фрукты",
+      "farm": "Сады Заилийского Алатау",
+      "badge": "Местное",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=900&q=85"
+    },
+    {
+      "id": "3",
+      "name": "Молоко фермерское 3,2%",
+      "price": 720,
+      "unit": "1 л",
+      "category": "Молочные продукты",
+      "farm": "Ферма «Ақ бұлақ», Акмола",
+      "image": "https://images.unsplash.com/photo-1445282768818-728615cc910a?w=900&q=85"
+    },
+    {
+      "id": "4",
+      "name": "Морковь молодая",
+      "price": 320,
+      "unit": "1 кг",
+      "category": "Овощи",
+      "farm": "Хозяйство «Береке», Туркестан",
+      "badge": "Свежий урожай",
+      "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=900&q=85"
+    },
+    {
+      "id": "5",
+      "name": "Мёд цветочный",
+      "price": 2800,
+      "unit": "500 г",
+      "category": "Мёд и бакалея",
+      "farm": "Пасека «Алтай», ВКО",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=900&q=85"
+    },
+    {
+      "id": "6",
+      "name": "Яйца деревенские С0",
+      "price": 1100,
+      "unit": "10 шт.",
+      "category": "Молочные продукты",
+      "farm": "Ферма «Ауыл», Акмола",
+      "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=900&q=85"
+    },
+    {
+      "id": "7",
+      "name": "Огурцы хрустящие",
+      "price": 580,
+      "unit": "1 кг",
+      "category": "Овощи",
+      "farm": "Теплицы «Жасыл», Алматы",
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=900&q=85"
+    },
+    {
+      "id": "8",
+      "name": "Клубника садовая",
+      "price": 1900,
+      "unit": "500 г",
+      "category": "Фрукты",
+      "farm": "Ягодная ферма, Алматинская обл.",
+      "badge": "Выбор недели",
+      "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=900&q=85"
+    }
+  ],
+  "messages": [],
+  "orders": [],
+  "tasks": [],
+  "users": []
+}

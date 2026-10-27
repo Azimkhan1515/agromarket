@@ -1,0 +1,4 @@
+export default function Icon({name, size=22, ...props}) {
+ const paths={search:<><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></>,bag:<><path d="M5 7h14l1 14H4L5 7Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></>,leaf:<><path d="M20 3C7 1 2 8 6 15c6 7 15-1 14-12Z"/><path d="M4 21 16 8"/></>,sun:<><circle cx="12" cy="12" r="4"/><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></>,arrow:<path d="M4 12h16m-6-6 6 6-6 6"/>,close:<path d="m6 6 12 12M6 18 18 6"/>,heart:<path d="M20 5a5 5 0 0 0-8 1 5 5 0 0 0-8-1c-5 6 8 14 8 14S25 11 20 5Z"/>,truck:<><path d="M2 5h12v12H2zm12 5h4l4 4v3h-8"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></>,check:<path d="m5 12 4 4L19 6"/>};
+ return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name]||paths.leaf}</svg>;
+}
